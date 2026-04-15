@@ -81,7 +81,7 @@
 
 ---
 
-## 计划追踪 (PLAN.md)
+## 计划追踪
 - 每次接到新任务时，首先读取 `PLAN.md` 确认当前进度。
 - 任务完成后，如果你有权限修改 `PLAN.md`，请将已完成的项打上 `[x]`。
 - 严格按顺序执行，禁止跳过前置任务直接执行后续任务。
@@ -91,4 +91,5 @@
 ## 代码规范强制检查
 - 修改前端代码前，必须静默读取并严格遵循 `.codex/rules/frontend/code-style.md`
 - 修改后端代码前，必须静默读取并严格遵循 `.codex/rules/backend/code-style.md`
+- 修改 Python 代码前，必须静默读取并严格遵循 `.codex/rules/python/code-style.md`
 - 如果生成的代码违反上述规范，你将被视为任务失败。
