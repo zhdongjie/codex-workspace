@@ -1,0 +1,9 @@
+node_modules/
+target/
+dist/
+.cache/
+.npm-cache/
+.mvn/
+.env
+
+.idea
